@@ -16,7 +16,7 @@ private double p;
             this.s=Math.sqrt(p/2*(p/2-a)*(p/2-b)*(p/2-c));
         }
         else{
-            System.out.println("incorect values");
+            throw new RuntimeException("There is no figure with such parameters.");
         }
     }
 

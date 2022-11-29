@@ -11,7 +11,7 @@ public class Circle {
             this.p=2*Math.PI*r;
         }
         else {
-            System.out.println("incorect value");
+            throw new RuntimeException("There is no figure with such parameters.");
         }
     }
 

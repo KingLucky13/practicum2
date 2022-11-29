@@ -13,7 +13,7 @@ public class Rectangle {
             this.p=2*(a+b);
         }
         else{
-            System.out.println("incorect values");
+            throw new RuntimeException("There is no figure with such parameters.");
         }
     }
     public double getS(){
